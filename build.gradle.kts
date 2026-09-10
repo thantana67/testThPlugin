@@ -73,7 +73,7 @@ subprojects {
 
         // Stubs for all cloudstream classes
         cloudstream("com.lagradost:cloudstream3:pre-release")
-
+        //adadadad
         // These dependencies can include any of those which are added by the app,
         // but you don't need to include any of them if you don't need them.
         // https://github.com/recloudstream/cloudstream/blob/master/app/build.gradle.kts
