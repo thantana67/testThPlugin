@@ -9,8 +9,8 @@ version = 1
 cloudstream {
     // All of these properties are optional, you can safely remove any of them.
 
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst", "Luna712")
+    description = "anime with thai subtitles"
+    authors = listOf("Toy")
 
     /**
     * Status int as one of the following:
@@ -21,10 +21,10 @@ cloudstream {
     **/
     status = 1 // Will be 3 if unspecified
 
-    tvTypes = listOf("Movie")
+    tvTypes = listOf("Anime")
 
     requiresResources = true
-    language = "en"
+    language = "th"
 
     // Random CC logo I found
     iconUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png"
@@ -34,5 +34,11 @@ android {
     buildFeatures {
         buildConfig = true
         viewBinding = true
+    }
+}
+
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    compilerOptions {
+        freeCompilerArgs.add("-Xskip-metadata-version-check")
     }
 }
