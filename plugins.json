@@ -1,0 +1,22 @@
+[
+    {
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+        "fileHash": "sha256-f58c89e979b9520917169ee72b7af93c03760656b595a9709a05a35b13cafc37",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/thantana67/testThPlugin",
+        "fileSize": 10099,
+        "status": 1,
+        "language": "th",
+        "authors": [
+            "Toy"
+        ],
+        "tvTypes": [
+            "Anime"
+        ],
+        "version": 1,
+        "internalName": "ExampleProvider",
+        "description": "anime with thai subtitles",
+        "url": "https://raw.githubusercontent.com/thantana67/testThPlugin/builds/ExampleProvider.cs3",
+        "name": "ExampleProvider"
+    }
+]

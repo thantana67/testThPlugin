@@ -1,0 +1,27 @@
+{
+  "name": "AnimeWaku Repo",
+  "description": "AnimeWaku Cloudstream Extension",
+  "manifest_version": 1,
+  "plugin_lists": [],
+  "plugins": [
+    {
+      "name": "ExampleProvider",
+      "internalName": "ExampleProvider",
+      "description": "anime with thai subtitles",
+      "authors": [
+        "Toy"
+      ],
+      "tvTypes": [
+        "Anime"
+      ],
+      "language": "th",
+      "version": 1,
+      "apiVersion": 1,
+      "status": 1,
+      "url": "https://raw.githubusercontent.com/thantana67/testThPlugin/builds/ExampleProvider.cs3",
+      "fileHash": "sha256-f58c89e979b9520917169ee72b7af93c03760656b595a9709a05a35b13cafc37",
+      "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korduene_Logo.png",
+      "repositoryUrl": "https://github.com/thantana67/testThPlugin"
+    }
+  ]
+}
